@@ -1,0 +1,58 @@
+*{
+    padding:0%;
+    margin:0%;
+    background-color: #c1e28f;
+}
+
+
+.block
+{
+    background-color: rgb(188, 224, 188);
+}
+
+.heading{
+    position:fixed;
+    background-color: #93cc3d;
+    width:100%;
+    height:30%;
+
+}
+.heading h3
+{
+    background-color: #93cc3d;
+    text-align: center;
+}
+a{
+    color:Black;
+}
+.button{
+    font-weight: 500;
+    font-size: 30px;
+    color:black;
+
+}
+.button i{
+    color:white;
+}
+
+.heading img
+{ 
+    position:absolute;
+    left:15rem;
+    
+}
+#check{
+    display:none;
+}
+.sidebar_menu{
+    position:fixed; 
+    left:-300px;
+    height:50vh;
+    background-color: rgba(151, 243, 146, 0.1);
+    width:300px;
+    box-shadow:0 0 6px rgba(159, 247, 156, 0.5);
+    transition:all 2s linear;
+}
+.button{
+    z-index:1;
+}
